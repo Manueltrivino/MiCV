@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio</title>
+</head>
+<body>
+     <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">MANUEL</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#estudios" onclick="seleccionar()">ESTUDIOS</a></li>
+                    <li><a href="#experiencia" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="docs/MANUEL TRIVIÑO cv.pdf" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+     <!-- SECCION INICIO -->
+    <div class="contenedor-cuerpo">
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Foto perfil.jpg" alt="">
+            </div>
+            <h1>MANUEL TRIVIÑO</h1>
+            <h2>Analista de sistemas<br> Analista SOC </h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+               <!--<a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                <a href="#"><i class="fa-brands fa-skype"></i></a>-->
+                <a href="https://www.linkedin.com/in/manuel-trivi%C3%B1o-diaz-/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <!--<a href="#"><i class="fa-solid fa-rss"></i></a>-->
+                
+            </div>
+        </div>
+    </section> 
+
+    <!--Sobre mi-->
+    <section class="conteSobremi" id="sobremi">
+        <div class="sobremi">
+            <h1>Sobre mi</h1>
+            <p> Soy un estudiante avanzado y apasionado por el área de ciberseguridad, 
+                actualmente cursando el último año de Técnico Superior en Análisis de Sistemas. 
+                Mi formación incluye el programa de Analista SOC en la Cisco Networking Academy, 
+                donde adquirí conocimientos teóricos sólidos sobre el monitoreo de redes, 
+                gestión de firewalls, seguridad en la nube y criptografía. 
+                Aunque no poseo experiencia profesional directa en el campo de la ciberseguridad, 
+                estoy altamente motivado para aplicar y desarrollar mis conocimientos en un entorno laboral.</p>
+            <p> Además, cuento con experiencia previa como Analista de Stock, lo que ha fortalecido mis 
+                habilidades analíticas, de organización y de manejo de datos, competencias que considero 
+                fundamentales en el ámbito de la seguridad informática. Estoy comprometido con el aprendizaje 
+                continuo y orientado a ofrecer soluciones tecnológicas innovadoras y de alto impacto que 
+                contribuyan a la protección de los activos digitales de las organizaciones.Habilidades </p>
+        <p>Técnicas: </p>
+            <div class="tecnicas">    
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3"></i>
+                <i class="fa-brands fa-php"></i>
+                <i class="fa-brands fa-windows"></i>
+                <i class="fa-brands fa-linux"></i>
+                <i class="fa-solid fa-file-excel"></i>
+            </div>
+    </section>
+
+
+    <!--Estudios-->
+    <section class="tituloestudios">
+        <h2 class="titleh2">Estudios</h2>
+        <div class="estudio" id="estudios">
+            <div class="cuadro" id="cuadro1">
+                <ul>
+                    <h3>Analista de sistemas</h3>
+                    <li>Institu Superior Santo Domingo</li>
+                    <li><a href="https://issd.edu.ar/es/analista-sistemas/">Pagina: ISSD</a></li>
+                    <li><a href="">Estado academico: en curso</a></li>
+                </ul>
+            </div>
+            <div class="cuadro" id="cuadro2">
+                <ul>
+                    <h3>Analista de datos</h3>
+                    <li>linkedin learning</li>
+                    <li><a href="https://www.linkedin.com/learning/certificates/a23cbe5d1454dcbb9999b2446ca52bdf9fac81a52385b6c0f3befd4867eaf526?trk=share_certificate">Conviértete en data analyst</a></li>
+                </ul>
+            </div>
+            <div class="cuadro" id="cuadro3">
+                <ul>
+                    <h3>Programador java</h3>
+                    <li>EducacionIT</li>
+                    <li><a href="educacionIT.html">Programador java</a></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="cuadro" id="cuadro4">
+                <ul>
+                    <h3>Analista en ciberseguridad</h3>
+                    <li>CISCO Networking Academy</li>
+                    <li><a href="docs/JuniorCiberseguridad.pdf">Junior Cybersecurity Analyst</a></li>
+                </ul>
+            </div>
+            <div class="cuadro" id="cuadro4">
+                <ul>
+                    <h3>Otros</h3>
+                    
+                </ul>
+            </div>
+     </section>
+   
+<!--Cuerpo del slider-->
+    <div class="cuerpo-carrusel" id="portafolio">
+        <div class="container-carousel">
+            <P>Esta secciòn se encuentra en construccion</P>
+            <div class="carruseles" id="slider">
+                <section class="slider-section">
+                   <a href=""><img src="img/contacto.jpg"></a> 
+                    <DIV class="titulo"><h1>CONTACTO</h1></DIV>
+                </section>
+                <section class="slider-section">
+                    <a href="docs/CV Manuel Triviño.pdf"><img src="img/curriculum.jpg"></a>
+                </section>
+                <section class="slider-section">
+                    <img src="img/Estudios.png">
+                </section>
+                <section class="slider-section">
+                    <img src="img/Experiencia.jpg">
+                </section>
+                <section class="slider-section">
+                    <img src="img/Fondo.jpg">
+                </section>
+                <section class="slider-section">
+                    <img src="img/fuego.jpg">
+                </section>
+                <section class="slider-section">
+                    <img src="img/kumiko.png">
+                 </section>
+                <section class="slider-section">
+                    <img src="img/SKILL2.jpg">
+                 </section>
+                <section class="slider-section">
+                    <img src="img/aire.jpg">
+                </section>
+                <section class="slider-section">
+                    <img src="img/tierra.jpg">
+                </section>
+            </div>
+            <div class="btn-left"><i class='bx bx-chevron-left'></i></div>
+            <div class="btn-right"><i class='bx bx-chevron-right'></i></div>
+        </div>
+    </div>
+
+    
+    <!--Experiencia-->
+    <section class="tituloestudios" id="experiencia">
+        <h2 class="titleh2">Experiencia</h2>
+        <div class="estudio">
+            <div class="cuadro" id="cuadro1">
+            <ul class="sodimac">
+                <h3>Analista de excistencias</h3>
+                <li>Sodimac</li>
+                <li><a href="https://www.sodimac.com.ar/sodimac-ar/">Sodimac</a></li>
+                <li>desde 2022 al presente</li>
+            </ul>
+            </div>
+            <div class="cuadro" id="cuadro2">
+                <ul>
+                    <h3>Vendedor</h3>
+                    <li>Sodimac</li>
+                    <li><a href="https://www.sodimac.com.ar/sodimac-ar/">Sodimac</a></li>
+                    <li>desde 2014 al 2022 </li>
+                </ul>
+            </div>
+        </div>
+    </section>   
+   
+  <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2 class="titleh2">Contacto</h2>
+        <div class="fila">
+            <!--<form class="col" id="formulario" action="enviar_formulario.php" method="POST">
+                <label for="nombre"></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+
+                <label for="telefono"></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Número telefónico" required>
+
+                <label for="correo"></label>
+                <input type="email" id="correo" name="correo" placeholder="Dirección de correo" required>
+
+                <label for="tema"></label>
+                <input type="text" id="tema" name="tema" placeholder="Tema" required>
+
+                <label for="mensaje"></label>
+                <textarea id="mensaje" name="mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit">
+                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form> -->
+            <div class="col">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i> Argentina, Capital Federal, Villa Urquiza.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i> cel: 1151029955.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i> Email: arturotrivino21@yahoo.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+    <script src="script.js"></script>
+</body>
+  <!-- footer -->
+  <footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+      <!--  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>-->
+        <a href="https://www.linkedin.com/in/manuel-trivi%C3%B1o-diaz-/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+</footer>
+</html>
